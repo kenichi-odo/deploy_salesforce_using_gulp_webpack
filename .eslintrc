@@ -1,0 +1,23 @@
+{
+    extends: 'airbnb',
+    rules: {
+        brace-style: ['off'],
+        camelcase: ['off'],
+        no-underscore-dangle: ['off'],
+        no-undef: ['warn'],
+        arrow-body-style: ['error', 'always'],
+        indent: ['error', 'tab', { SwitchCase: 1 }],
+        max-len: ['error', 150, 4],
+        new-cap: ['error', { capIsNew: false }],
+        space-in-parens: ['error', 'always'],
+        template-curly-spacing: ['error', 'always'],
+        react/jsx-closing-bracket-location: ['error', 'after-props'],
+        react/jsx-curly-spacing: ['error', 'always'],
+        react/jsx-indent: ['error', 'tab'],
+        react/jsx-indent-props: ['error', 'tab'],
+        no-param-reassign: ['off'],
+        space-before-function-paren: ['error', 'never'],
+        newline-per-chained-call: ['error', { ignoreChainWithDepth: 4 }],
+        no-unused-vars: ['warn', { args: 'all' }],
+    }
+}

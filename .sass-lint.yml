@@ -1,0 +1,15 @@
+options:
+  formatter: stylish
+files:
+  include: '**/*.s+(a|c)ss'
+rules:
+  indentation:
+      - 1
+      - size: 'tab'
+
+  space-between-parens:
+      - 1
+      - include: true
+  variable-name-format:
+      - 1
+      - convention: snakecase
